@@ -1,0 +1,27 @@
+{
+  "name": "lets-chat-ldap",
+  "version": "0.2.0",
+  "description": "LDAP add-on for Let's Chat",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sdelements/lets-chat-ldap.git"
+  },
+  "author": {
+    "name": "Simon Bartlett",
+    "email": "simon@sdelements.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sdelements/lets-chat-ldap/issues"
+  },
+  "homepage": "https://github.com/sdelements/lets-chat-ldap",
+  "dependencies": {
+    "ldapjs": "^0.7.1",
+    "passport-ldapauth": "^0.2.3"
+  },
+  "peerDependencies": {
+    "lodash": "^3.1.0",
+    "mongoose": "~3.8.22",
+    "passport": "^0.2.1"
+  }
+}
