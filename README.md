@@ -25,7 +25,7 @@ auth:
       base:
       opts:
         scope: one
-        filter: (uid={{username}})
+        filter: (uid={{username}}) # Only {{username}} is available
         attributes: []
     field_mappings:
       uid: uid # LDAP unique ID
