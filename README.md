@@ -10,7 +10,7 @@ npm install lets-chat-ldap
 
 ### Configure
 
-```
+```yml
 auth:
   ldap:
     connect_settings:
