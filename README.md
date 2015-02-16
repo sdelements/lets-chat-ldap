@@ -28,7 +28,7 @@ auth:
         filter: (uid={{username}})
         attributes: []
     field_mappings:
-      uid: uid 3 LDAP unique ID
+      uid: uid # LDAP unique ID
       username: uid # used for mention (@uid)
       firstName: givenName
       lastName: sn
