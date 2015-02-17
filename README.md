@@ -24,7 +24,7 @@ auth:
     search:
       base:
       opts:
-        scope: one
+        scope: one # Base search (base), one level search (one) or subtree search (sub)
         filter: (uid={{username}}) # Only {{username}} is available
         attributes: []
     field_mappings:
