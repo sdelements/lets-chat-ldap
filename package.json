@@ -1,6 +1,6 @@
 {
   "name": "lets-chat-ldap",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "LDAP add-on for Let's Chat",
   "main": "lib/index.js",
   "repository": {
